@@ -6,10 +6,8 @@ import Timer from "./components/Timer";
 import TypingArea from "./components/TypingArea";
 import WordDisplay from "./components/WordDisplay";
 import Results from "./components/Results";
-
 import useTimer from "./hooks/useTimer";
 import useTypingLogic from "./hooks/useTypingLogic";
-
 import { generateWords } from "./utils/generateText";
 
 function App() {
